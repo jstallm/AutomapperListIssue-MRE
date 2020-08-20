@@ -10,4 +10,11 @@ namespace WebApplication1.Controllers
 
         public string OuterSourceProp1 { get; set; }// Notice how you can have prop on source which is not on dest, no complaints from AutoMapper there
     }
+    public class OuterSourceListItem
+    {
+        public string Name { get; set; }
+
+        public string Desc { get; set; }
+
+    }
 }
