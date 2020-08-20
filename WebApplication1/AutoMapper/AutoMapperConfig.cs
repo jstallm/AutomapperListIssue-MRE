@@ -9,6 +9,7 @@ namespace WebApplication1.AutoMapper
             return new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new InputModelToDomainModel());
+                cfg.AddProfile(new Class1InputModelToClass1DomainModel());
             });
         }
     }
