@@ -4,11 +4,11 @@ using WebApplication1.Models;
 
 namespace WebApplication1.AutoMapper
 {
-    public class InputModelToDomainModel : Profile
+    public class OuterSourceToOuterDest : Profile
     {
-        public InputModelToDomainModel()
+        public OuterSourceToOuterDest()
         {
-            CreateMap<InputModel, DomainModel>();
+            CreateMap<OuterSource, OuterDest>();
         }
     }
 
